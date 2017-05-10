@@ -1,0 +1,128 @@
+﻿img{
+    margin-bottom:2em;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.tab {
+margin-left: 40em
+}
+i + i {
+   padding-left: 1.4vw;
+}
+.core{
+    width: 100%;
+    margin: 0 auto;
+}
+.typewrite{
+    font-family: 'Special Elite', cursive;
+}
+
+#p1{ 
+   overflow:hidden;
+   font-size: 1.3vw;
+   width:60em;
+   font-family: 'Special Elite', cursive;
+   white-space: nowrap;
+   animation: type 6s steps(60, end);
+   -webkit-animation: type 6s steps(60, end);
+   -moz-animation: type 6s steps(60, end);
+   -o-animation: type 6s steps(60, end);
+}
+#p2{ 
+   overflow:hidden;
+   font-size: 1.3vw;
+   width:60em;
+   font-family: 'Special Elite', cursive;
+   white-space: nowrap;
+   animation: type 6s steps(60, end);
+   animation-delay: 6s;
+   animation-fill-mode:both;
+   -webkit-animation: type 6s steps(60, end);
+   -webkit-animation-delay: 6s;
+   -webkit-animation-fill-mode:both; 
+   -moz-animation: type 6s steps(60, end);
+   -moz-animation-delay: 6s;
+   -moz-animation-fill-mode:both; 
+   -o-animation: type 6s steps(60, end);
+   -o-animation-delay: 6s;
+   -o-animation-fill-mode:both;  
+}
+#p3{ 
+   overflow:hidden;
+   font-size: 1.3vw;
+   width:60em;
+   font-family: 'Special Elite', cursive;
+   white-space: nowrap;
+   animation: type 6s steps(60, end);
+   animation-delay: 8s;
+   animation-fill-mode:both;
+   -webkit-animation: type 6s steps(60, end);
+   -webkit-animation-delay: 8s;
+   -webkit-animation-fill-mode:both; 
+   -moz-animation: type 6s steps(60, end);
+   -moz-animation-delay: 8s;
+   -moz-animation-fill-mode:both; 
+   -o-animation: type 6s steps(60, end);
+   -o-animation-delay: 8s;
+   -o-animation-fill-mode:both;  
+}
+
+span{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{
+    from{width: 0;}
+}
+
+@-o-keyframes type{
+    from{width: 0;}
+}
+
+@-moz-keyframes type{
+    from{width: 0;}
+}
+
+@-o-keyframes type{
+    from{width: 0;}
+}
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+@-webkit-keyframes blink{
+    to{opacity: .0;}
+}
+
+@-moz-keyframes blink{
+    to{opacity: .0;}
+}
+
+@-o-keyframes blink{
+    to{opacity: .0;}
+}
+.fade{
+    margin-top: 0.5 em;
+    animation: fadeIn 1.5s ease-in;
+    animation-fill-mode: both;
+    animation-delay:9s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
