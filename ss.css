@@ -1,4 +1,10 @@
-﻿img{
+﻿.contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+img{
     margin-bottom:2em;
 }
 
@@ -6,10 +12,10 @@
     border-radius: 50%;
 }
 .tab {
-margin-left: 40em
+    margin-left: 40em
 }
 a{
-   padding-left: 1.3em;
+    padding-left: 1.3em;
 }
 .core{
     width: 100%;
