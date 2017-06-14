@@ -77,6 +77,9 @@ a{
 
 span{
     animation: blink 1s infinite;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    -o-animation: blink 1s infinite;
 }
 
 @keyframes type{
@@ -114,7 +117,16 @@ span{
     margin-top: 0.5 em;
     animation: fadeIn 1.5s ease-in;
     animation-fill-mode: both;
-    animation-delay:9s;
+    animation-delay:9s;    
+    -webkit-animation: fadeIn 1.5s ease-in;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay:9s;    
+    -moz-animation: fadeIn 1.5s ease-in;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay:9s;    
+    -o-animation: fadeIn 1.5s ease-in;
+    -o-animation-fill-mode: both;
+    -o-animation-delay:9s;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
