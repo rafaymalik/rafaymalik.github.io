@@ -62,16 +62,16 @@ a{
    font-family: 'Special Elite', cursive;
    white-space: nowrap;
    animation: type 6s steps(60, end);
-   animation-delay: 8s;
+   animation-delay: 10s;
    animation-fill-mode:both;
    -webkit-animation: type 6s steps(60, end);
-   -webkit-animation-delay: 8s;
+   -webkit-animation-delay: 10s;
    -webkit-animation-fill-mode:both; 
    -moz-animation: type 6s steps(60, end);
-   -moz-animation-delay: 8s;
+   -moz-animation-delay: 10s;
    -moz-animation-fill-mode:both; 
    -o-animation: type 6s steps(60, end);
-   -o-animation-delay: 8s;
+   -o-animation-delay: 10s;
    -o-animation-fill-mode:both;  
 }
 
@@ -117,16 +117,16 @@ span{
     margin-top: 0.5 em;
     animation: fadeIn 1.5s ease-in;
     animation-fill-mode: both;
-    animation-delay:9s;    
+    animation-delay:11s;    
     -webkit-animation: fadeIn 1.5s ease-in;
     -webkit-animation-fill-mode: both;
-    -webkit-animation-delay:9s;    
+    -webkit-animation-delay:11s;    
     -moz-animation: fadeIn 1.5s ease-in;
     -moz-animation-fill-mode: both;
-    -moz-animation-delay:9s;    
+    -moz-animation-delay:11s;    
     -o-animation: fadeIn 1.5s ease-in;
     -o-animation-fill-mode: both;
-    -o-animation-delay:9s;
+    -o-animation-delay:11s;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
